@@ -1,0 +1,15 @@
+[submodule "application/libraries/template"]
+	path = application/libraries/template
+	url = git@github.com:philsquare/codeigniter-template.git
+[submodule "application/modules/auth/models"]
+	path = application/modules/auth/models
+	url = git@github.com:philsquare/codeigniter-ion_auth_m.git
+[submodule "application/modules/auth/libraries"]
+	path = application/modules/auth/libraries
+	url = git@github.com:philsquare/codeigniter-ion_auth_lib.git
+[submodule "application/third_party/PS_CI_Extensions"]
+	path = application/third_party/PS_CI_Extensions
+	url = git@github.com:philsquare/codeigniter-ps_ci_extensions.git
+[submodule "application/third_party/MX"]
+	path = application/third_party/MX
+	url = git@github.com:philsquare/codeigniter-hmvc.git
