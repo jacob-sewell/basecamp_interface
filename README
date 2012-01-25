@@ -1,8 +1,9 @@
-Basecamp Interface -- Built with Codeigniter, Wiredesignz HMVC, Phil Sturgeon's Template library for CI
+Basecamp Interface -- 
+Built with Codeigniter, Wiredesignz HMVC, Phil Sturgeon's Template library for CI
 
-This is a really basic iframe-based Basecamp time report scraper that I whipped up because "Show me 
-just my hours from today" is a five-click operation for some reason in the regular Basecamp 
-interface.
+This is a really basic iframe-based Basecamp time report scraper that I whipped up
+because "Show me just my hours from today" is a five-click operation for some 
+reason in the regular Basecamp interface.
 
-Why build this in Codeigniter rather than just writing a one-file page? I don't have a good answer for 
-that. --Jacob Sewell
+Why build this in Codeigniter rather than just writing a one-file page? I don't 
+have a good answer for that. --Jacob Sewell
