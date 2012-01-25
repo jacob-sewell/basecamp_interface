@@ -17,15 +17,15 @@
 switch (ENVIRONMENT)
 {
 	case 'development_local':
-		$config['base_url']	= 'http://127.0.0.1:8888/project_name/websites/website_name/';
+		$config['base_url']	= 'http://127.0.0.1:8888/philsquare/websites/basecamp_interface/';
 	break;
 
 	case 'development_server':
-		$config['base_url']	= 'http://clients.philsquare.com/website_name/';
+		$config['base_url']	= 'http://clients.philsquare.com/basecamp_interface/';
 	break;
 
 	case 'production':
-		$config['base_url']	= 'http://project_name.org/';
+		$config['base_url']	= 'http://philsquare.org/';
 	break;
 
 	default:

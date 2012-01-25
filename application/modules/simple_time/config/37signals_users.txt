@@ -1,0 +1,6 @@
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+
+// This is included as a prototype of the kind of data you need here. 
+// "Everyone" should be the same, but everybody else in your team needs a name and subject_id.
+
+$config['37signals_users']['Everyone']['subject_id'] = '';

@@ -49,9 +49,9 @@ $active_group = ENVIRONMENT;
 $active_record = TRUE;
 
 $db['development_local']['hostname'] = 'localhost';
-$db['development_local']['username'] = 'root';
-$db['development_local']['password'] = 'root';
-$db['development_local']['database'] = 'website_name';
+$db['development_local']['username'] = '';
+$db['development_local']['password'] = '';
+$db['development_local']['database'] = 'basecamp_interface';
 $db['development_local']['dbdriver'] = 'mysql';
 $db['development_local']['dbprefix'] = '';
 $db['development_local']['pconnect'] = TRUE;

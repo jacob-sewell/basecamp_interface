@@ -1,6 +1,0 @@
-#!/bin/bash
-git submodule add git@github.com:philsquare/codeigniter-ps_ci_extensions.git application/third_party/PS_CI_Extensions/
-git submodule add git@github.com:philsquare/codeigniter-ion_auth_lib.git application/modules/auth/libraries/
-git submodule add git@github.com:philsquare/codeigniter-ion_auth_m.git application/modules/auth/models/
-git submodule add git@github.com:philsquare/codeigniter-template.git application/libraries/template/
-git submodule add git@github.com:philsquare/codeigniter-hmvc.git application/third_party/MX/
