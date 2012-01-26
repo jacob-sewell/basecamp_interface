@@ -42,12 +42,14 @@ class Simple_time extends App_controller
 				date('Y')
 			);
 		
-		$this->users = $this->config->item('37signals_users');
-		$data['users_radios'] = array_combine(array_keys($this->users), array_keys($this->users));
+		$this->user_data = $this->config->item('37signals_users');
+		$users = array_keys($this->user_data);
+		$first_user = reset($users);
+		$data['users_radios'] = array_combine($users, $users);
 		
-		$data['selected_user'] = $this->input->post('selected_user');
+		$data['selected_user'] = $this->input->post('selected_user') ? $this->input->post('selected_user') : $first_user;
 		
-		if ($data['selected_user'])
+		if ($this->input->post('selected_user'))
 		{
 			$this->_embed_report($data);
 		}
@@ -66,7 +68,7 @@ class Simple_time extends App_controller
 			foreach ($details as $attribute => $format)
 				$url .= '&'.$attribute.'='.date($format, $$date);
 		
-		foreach ($this->users[$data['selected_user']] as $attribute => $value)
+		foreach ($this->user_data[$data['selected_user']] as $attribute => $value)
 			$url .= '&'.$attribute.'='.$value;
 		
 		$data['reports'][] = $url;
